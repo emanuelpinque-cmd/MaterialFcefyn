@@ -1,0 +1,1 @@
+considere ahora que el error es 0 esto significa que solo entra la perturbación D(s) 

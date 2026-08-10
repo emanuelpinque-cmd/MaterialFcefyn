@@ -1,0 +1,1 @@
+consiste en anular partes de un sistema para simplificarlo:

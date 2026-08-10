@@ -1,0 +1,1 @@
+Una planta es un conjunto de partes de una maquina que funcionan juntas, su propósito es ejecutar una operación particular, en este libro se a una planta como a cualquier objeto físico que se va a controlar.

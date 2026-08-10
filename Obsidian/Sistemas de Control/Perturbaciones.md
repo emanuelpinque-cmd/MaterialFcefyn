@@ -1,0 +1,1 @@
+Una perturbacion es una señal que tiende a afectar negativamente el valor de la salida de los [[Sistemas]] si la perturbacion se genera dentro es interna, en una perturbacion externa se produce fuera del sistema y es una entrada
