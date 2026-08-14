@@ -13,15 +13,100 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad condicional.md",
+                "file": "Varianza.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Probabilidad condicional"
+              "title": "Varianza"
+            }
+          },
+          {
+            "id": "ff03412c7ae37885",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Varianza.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Varianza"
+            }
+          },
+          {
+            "id": "95e1d5a3199c9046",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Covarianza.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Covarianza"
+            }
+          },
+          {
+            "id": "e1dccca89c6de40f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coeficiente de Correlacion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Coeficiente de Correlacion"
+            }
+          },
+          {
+            "id": "1ae6c61d88654ddd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Varianza.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Varianza"
+            }
+          },
+          {
+            "id": "cab832ab881ec1bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coeficiente de Correlacion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Coeficiente de Correlacion"
+            }
+          },
+          {
+            "id": "fb43ec35299ae716",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estimacion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Estimacion"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -99,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CDF.md",
+                "file": "Espacio de muestra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,18 +273,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "596c61c95b09f2b9",
+  "active": "fb43ec35299ae716",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Estimacion.md",
+    "Coeficiente de Correlacion.md",
+    "Covarianza.md",
+    "Correlacion.md",
+    "Interpretacion vectorial.md",
+    "Varianza.md",
+    "Correlacion Entre Variables.md",
+    "Pasted image 20260813140428.png",
+    "Pasted image 20260813140432.png",
+    "Variable multiples.md",
+    "PDF marginal.md",
+    "Esperanza multivariable.md",
+    "Variables Aleatorias.md",
+    "Espacio de muestra.md",
+    "Eventos algebraicos.md",
     "Probabilidad condicional.md",
     "PDF.md",
     "Pasted image 20260811204206.png",
     "Modelos probabilisticos.md",
     "Medicion de probabilidad.md",
-    "Eventos algebraicos.md",
-    "Espacio de muestra.md",
     "CDF.md",
-    "Variables Aleatorias.md",
-    "Variable multiples.md"
+    "Untitled.canvas"
   ]
 }
