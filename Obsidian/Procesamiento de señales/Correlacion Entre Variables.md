@@ -1,4 +1,4 @@
-## Las variables aleatorias X e Y se dice que no estan correlacionadas (o linealmente independientes) si:
+º## Las variables aleatorias X e Y se dice que no estan correlacionadas (o linealmente independientes) si:
 
 $$\Huge E[XY] = E[X]E[Y]$$
 #### De forma equivalenete
