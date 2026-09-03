@@ -47,3 +47,19 @@ Gmason = simplify(Gmason)
 
 ````
 
+### Ejercicio motor 
+
+### Recordemos las ecuaciones
+
+$\Huge V(t) = R_I(t) + L \frac{di(t)}{dt} + K_b \omega (t)$
+
+$\Huge J \frac{d \omega (t)}{dt} = K_i i(t) -B\omega (t)$
+
+##### Unidades
+
+$R = 5.8 \Omega$
+
+$L = 135x10^{-6}$
+
+$K_b = 14.48x10^-3 frac{}{}$
+$K_i = 14.48x10^-3$
