@@ -1,0 +1,24 @@
+clear all;
+close all;
+clc
+pkg load symbolic;
+%Variables
+syms I1 I2 I3 E ER s real
+
+R1 = 100
+R2 = 250
+C1 = 1/(10^(6))
+L1 = 100/(10^(3))
+L2 = 100/(10^(3))
+%Ecuaciones
+
+eq1 = E == R1*I1 + L1*s*I1 + (I3/(C1*s))
+eq2 = 0 == s*L2*I2+R2*I2 + (I3/(C1*s))
+eq3 = I1 == I2 + I3
+
+V = solve([eq1,eq2,eq3] , [I1,I2,I3] )
+
+Out = R2*V.I2;
+In = E;
+
+G = Out/In
