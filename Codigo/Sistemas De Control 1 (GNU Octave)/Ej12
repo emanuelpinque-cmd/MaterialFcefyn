@@ -1,0 +1,25 @@
+close all;
+clear all;
+clc
+pkg load symbolic;
+Mc = 1.2
+Mt = 14
+Mb = 3.2
+Mi = 24
+k1 = 3
+b1 = 12
+k2=8
+b2=10
+k3=0.3
+b3=0.8
+syms s f xi xb xt xc real;
+eq1 = f + s^2*Mi == k1*(xt-xi) + s*b1*(xt-xi)
+eq2 = s^2*Mb == k2*(xt-xb) + b2*s*(xt-xb)  
+eq3 = s^2*Mt + k1*(xt-xi) + s*b1*(xt-xi) == k3*(xc-xt)+ b3*s*(xc-xt)
+eq4 = s^2*Mc == k3*(xc-xt)+b3*s*(xc-xt)
+
+eq = [eq1,eq2,eq3,eq4];
+
+V = solve(eq,[])
+disp(V.xi)
+

@@ -7,7 +7,7 @@ pkg load symbolic;
 
 syms Theta I v3 v1 v2 K1 K2 s R real;
 
-%ecuations
+%equations
 
 eq1 = 2*I == s^3*Theta + 5*s^2*Theta + 4*s*Theta
 eq2 = s*I + I == s*v3
