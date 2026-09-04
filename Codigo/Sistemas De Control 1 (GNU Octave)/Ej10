@@ -2,23 +2,45 @@ clear all;
 close all;
 clc
 pkg load symbolic;
+pkg load control;
 %Variables
-syms I1 I2 I3 E ER s real
 
-R1 = 100
-R2 = 250
-C1 = 1/(10^(6))
-L1 = 100/(10^(3))
-L2 = 100/(10^(3))
+syms I1 I2 I3 E s real
+
+R1 = 100;
+R2 = 250;
+C1 = 1/(10^(6));
+L1 = 100/(10^(3));
+L2 = 100/(10^(3));
+
+%Input
+
 %Ecuaciones
+eq1 = E == R1*I1 + L1*s*I1 + (I3/(C1*s));
+eq2 = 0 == s*L2*I2+R2*I2 - (I3/(C1*s));
+eq3 = I1 == I2 + I3;
 
-eq1 = E == R1*I1 + L1*s*I1 + (I3/(C1*s))
-eq2 = 0 == s*L2*I2+R2*I2 + (I3/(C1*s))
-eq3 = I1 == I2 + I3
+V = solve([eq1,eq2,eq3] , [I1,I2,I3]);
 
-V = solve([eq1,eq2,eq3] , [I1,I2,I3] )
+Out = R2*V.I2
+In = E
 
-Out = R2*V.I2;
-In = E;
+G=simplify(Out/In)
 
-G = Out/In
+[numG,denG] = numden(G);
+num = sym2poly(numG);
+den = sym2poly(denG);
+sys = tf(num,den);
+
+t = 0:0.01:10;  
+u = sin(t);             
+y = lsim(sys, u, t);
+
+plot(t, y)
+xlabel('Time [s]')
+ylabel('y1')
+title('Respuesta a entrada senoidal')
+grid on
+pause
+
+
