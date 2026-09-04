@@ -1,0 +1,27 @@
+close all;
+clear all;
+clc
+pkg load symbolic;
+
+%Symbolic vars definition
+
+syms Theta I v3 v1 v2 K1 K2 s R real;
+
+%ecuations
+
+eq1 = 2*I == s^3*Theta + 5*s^2*Theta + 4*s*Theta
+eq2 = s*I + I == s*v3
+eq3 =  v3 == R - v1 - v2
+eq4 = v1 == K1*Theta
+eq5 = v2 == K2*s*Theta
+
+eq = [eq1,eq2,eq3,eq4,eq5]
+
+W = solve(eq,[R,Theta,v1,v2,v3])
+
+%now we going to mk the tf
+
+Out = W.Theta
+In = W.R
+
+G = simplify(Out/In)
