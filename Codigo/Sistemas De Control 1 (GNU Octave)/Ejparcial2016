@@ -1,0 +1,20 @@
+close all;
+clear all;
+clc
+pkg load symbolic
+%variables
+syms M1 M2 x1 v2 K2 K1 B1 u s	 
+%equations
+eq1 = M2*v2*s == (K2)*(x1-v2/s)
+eq2 = M1*x1*s^2 == (K2)*(v2/s-x1)+(K1)*(u-x1)+B1*(s*u-x1*s)
+
+eq = [eq1,eq2]
+
+W = solve(eq,[v2,u])
+
+Out = W.v2
+In = W.u
+
+G = simplify(Out/In)
+
+

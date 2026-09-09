@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gramatica.md",
+                "file": "2026-09-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gramatica"
+              "title": "2026-09-08"
             }
           }
         ]
@@ -192,13 +192,14 @@
   },
   "active": "4488a1b09842a524",
   "lastOpenFiles": [
+    "Gramatica.md",
+    "2026-09-08.md",
     "Automata.md",
     "Clase 4.md",
     "Thread.md",
     "Pasted image 20260831171140.png",
     "Pasted image 20260829074235.png",
     "Introduccion.md",
-    "Gramatica.md",
     "Definciones previas.md",
     "Untitled.md",
     "Untitled.base"

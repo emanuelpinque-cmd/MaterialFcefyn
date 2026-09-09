@@ -1,0 +1,1 @@
+## Un enfoque particular es enfocarse en la distribucion de frecuencia del valor esperado en la potencia de la sel

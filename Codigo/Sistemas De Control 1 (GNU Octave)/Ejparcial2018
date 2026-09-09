@@ -1,0 +1,18 @@
+close all;
+clear all;
+clc
+pkg load symbolic;
+
+syms E R I L Kb Omega J Ka B Tm Tl s Kce N Theta real;
+
+eq1 = E == R*I + L*s*I + Kb*s*Theta;
+eq2 = J*Theta*s^2 == Ka*I-Kce*Theta/N-B*s*Theta;
+eq3 = Tm == Ka*I
+eq = [eq1,eq2,eq3];
+
+W = solve(eq,[Theta,I,Tm]);
+
+Out = W.Tm;
+In = E;
+
+G = simplify(Out/In)

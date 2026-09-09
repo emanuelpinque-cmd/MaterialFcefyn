@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Principio de superposicion.md",
+                "file": "Introduccion a los sistemas de control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Principio de superposicion"
+              "title": "Introduccion a los sistemas de control"
             }
           }
         ]
@@ -190,12 +190,13 @@
   },
   "active": "e7898fa181b0e32d",
   "lastOpenFiles": [
+    "Introduccion a los sistemas de control.md",
+    "Principio de superposicion.md",
     "Plantas.md",
     "Perturbaciones.md",
     "Sistemas.md",
     "Sistemas de lazo cerrado.md",
     "Sistema de lazo cerrado sujeto a una perturbacion.md",
-    "Señales.md",
-    "Principio de superposicion.md"
+    "Señales.md"
   ]
 }
