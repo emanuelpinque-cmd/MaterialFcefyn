@@ -44,12 +44,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Octave Clase 4.md",
+                "file": "2026-09-16.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Octave Clase 4"
+              "title": "2026-09-16"
             }
           }
         ],
@@ -220,11 +220,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "18dda05a965f6fd6",
+  "active": "5e9f1d1a440a0048",
   "lastOpenFiles": [
+    "pngS/Pasted image 20260916221056.png",
+    "pngS/Pasted image 20260916220803.png",
+    "pngS/Pasted image 20260916220350.png",
+    "pngS/Pasted image 20260916220337.png",
+    "pngS/Pasted image 20260916220331.png",
+    "pngS/Pasted image 20260916220121.png",
+    "pngS/Pasted image 20260916214554.png",
+    "pngS/Pasted image 20260916213741.png",
+    "pngS/Pasted image 20260916213737.png",
+    "pngS/Pasted image 20260916213733.png",
+    "pngS/Pasted image 20260916213454.png",
+    "pngS",
+    "Png",
+    "Octave Clase 4.md",
     "Clase 3.md",
     "Algoritmo de mason.md",
-    "Octave Clase 4.md",
     "Untitled.canvas"
   ]
 }
