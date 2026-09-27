@@ -41,7 +41,7 @@ para todo k, l y todas las elecciones de tiempos de muestreo
 
 $$R_{XY}(t_1,t_2) = E[X(t_1)Y(t_2)]$$
 y
-$$C_{XY}(t_1,t_2) = )=E[(X(t_1)-\mu_x(t_1))(Y(t_2)-\mu_y(t_2))]$$
+$$C_{XY}(t_1,t_2) =E[(X(t_1)-\mu_x(t_1))(Y(t_2)-\mu_y(t_2))]$$
 **Para tiempos arbitrarios $t_1,t_2$ Si  $C_{XY}(t_1,t_2)=0$ para todos los $t_1$ y $t_2$  decimos que los procesos $X(.)$ y $Y(.)$ son incorrelacionados.**
 
 **Se aplica la misma logica para procesos aleatorios de tiempo discreto con la excepcion de que ahora el tiempo de muestreo esta restringido**

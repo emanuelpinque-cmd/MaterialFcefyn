@@ -1,0 +1,20 @@
+clear all;
+close all;
+clc
+pkg load symbolic;
+
+%variables
+
+syms s theta_m theta_l K Bm Im Il Tm real
+eq1 = theta_m*s^2*Im == Tm - K*(theta_m-theta_l) - s*Bm*theta_m
+eq2 = theta_l*s^2*Il == -K*(theta_l - theta_m)
+
+sys = [eq1,eq2];
+W = solve(sys,[theta_l,theta_m]);
+
+Out_l = simplify(W.theta_l);
+Out_m = simplify(W.theta_m);
+In = Tm;
+
+G_l = Out_l/In
+G_m = Out_m/In

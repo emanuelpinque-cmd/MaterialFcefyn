@@ -1,4 +1,4 @@
-## Interrupcion de un Threa
+## Interrupcion de un Thread
 
 - En java un programa finaliza SOLO cuando todos sus Threads terminan su ejecucion
 

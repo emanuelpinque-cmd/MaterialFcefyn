@@ -1,0 +1,35 @@
+close all;
+clear all;
+clc
+pkg load symbolic;
+
+syms Y1 Y2 Y3 Y4 Y5 s real;
+
+eq1 = Y2 == Y1-5*s*Y5
+eq2 = Y3 == Y2/s - Y4
+eq3 = Y4 == 5*Y2 + Y3/s
+eq4 = Y5 == 30*Y4
+
+sys = [eq1,eq2,eq3,eq4]
+
+W = solve(sys,[Y2,Y3,Y4,Y5])
+
+Out = W.Y5
+In = Y1
+m1 = 30/s^2
+m2 = 150
+
+
+
+l1 = -1/s
+l2 = -1/s
+l3 = -150/s
+l4 = -750*s
+
+num = m1 + m2
+
+Delta = 1 - (l1+l2+l3+l4)
+
+simplify(num/Delta)
+
+simplify(Out/In)

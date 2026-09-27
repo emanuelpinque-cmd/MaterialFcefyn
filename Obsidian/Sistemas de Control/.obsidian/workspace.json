@@ -11,14 +11,12 @@
             "id": "e7898fa181b0e32d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Introduccion a los sistemas de control.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20260912190726.png"
               },
-              "icon": "lucide-file",
-              "title": "Introduccion a los sistemas de control"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260912190726"
             }
           }
         ]
@@ -190,6 +188,19 @@
   },
   "active": "e7898fa181b0e32d",
   "lastOpenFiles": [
+    "Pasted image 20260912195801.png",
+    "Pasted image 20260912195937.png",
+    "Pasted image 20260912195945.png",
+    "pngS/Pasted image 20260916213208.png",
+    "pngS/Pasted image 20260916221056.png",
+    "pngS/Pasted image 20260916213454.png",
+    "pngS/Pasted image 20260916213733.png",
+    "pngS/Pasted image 20260916213737.png",
+    "pngS/Pasted image 20260916213741.png",
+    "pngS/Pasted image 20260916214554.png",
+    "pngS/Pasted image 20260916220121.png",
+    "2026-09-16.md",
+    "pngS",
     "Introduccion a los sistemas de control.md",
     "Principio de superposicion.md",
     "Plantas.md",

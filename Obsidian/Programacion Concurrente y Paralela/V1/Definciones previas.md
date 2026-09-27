@@ -51,7 +51,3 @@ $\Huge \alpha \lambda = \lambda \alpha = \alpha$
 
 ### El lenguaje vacio es un conjunto vacio se denota $\emptyset$ 
 
----
-
-
-
