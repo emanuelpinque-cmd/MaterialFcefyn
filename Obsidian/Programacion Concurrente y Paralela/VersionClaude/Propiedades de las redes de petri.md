@@ -155,7 +155,9 @@ Un invariante de plaza es un conjunto de lugares (con pesos asociados) tal que l
 Una secuencia de disparo es **repetitiva** si, a partir de un cierto marcado, existe una secuencia de transiciones cuyo disparo devuelve la red **exactamente al mismo marcado** del que partió (un "ciclo" en la evolución de la red).
 - El conjunto de transiciones involucradas en esa secuencia repetitiva se llama **componente repetitivo**.
 
-**Nota**: el desarrollo formal y riguroso de invariantes (mediante matrices de incidencia y ecuación fundamental / álgebra lineal) **no entra en el primer parcial**.
+**Nota**: el desarrollo formal y riguroso de estos invariantes (mediante matrices de incidencia y ecuación fundamental) se profundiza con álgebra lineal → ver [[Algebra Lineal - Matrices de RdP]].
+
+**Además**, para analizar formalmente estas propiedades (acotación, vivacidad, deadlock, etc.) existen dos métodos gráficos: el **grafo de marcas** y el **árbol de raíz de cobertura** → ver [[Arboles y Grafos de Alcanzabilidad]].
 
 ---
 
@@ -166,3 +168,5 @@ Una secuencia de disparo es **repetitiva** si, a partir de un cierto marcado, ex
 ### Ver también
 - [[Redes de petri]]
 - [[Concurrencia]]
+- [[Algebra Lineal - Matrices de RdP]]
+- [[Arboles y Grafos de Alcanzabilidad]]

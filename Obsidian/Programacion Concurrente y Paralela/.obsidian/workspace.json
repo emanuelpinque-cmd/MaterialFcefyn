@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VersionClaude/Automata.md",
+                "file": "VersionClaude/Algebra Lineal - Matrices de RdP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automata"
+              "title": "Algebra Lineal - Matrices de RdP"
             }
           }
         ]
@@ -192,10 +192,7 @@
   },
   "active": "09ae3ca4fb42f8eb",
   "lastOpenFiles": [
-    "VersionClaude/Automata de Pila.md",
-    "VersionClaude/2026-09-10.md",
-    "VersionClaude/2026-09-08.md",
-    "V2/Propiedades de las redes de petri.md",
+    "VersionClaude/Programacion Concurrente - Indice.md",
     "VersionClaude/attachments/Pasted image 20260831171140.png",
     "VersionClaude/attachments/Pasted image 20260829074235.png",
     "VersionClaude/attachments",
@@ -204,7 +201,6 @@
     "VersionClaude/Semaforo.md",
     "VersionClaude/Redes de petri.md",
     "VersionClaude/Propiedades de las redes de petri.md",
-    "VersionClaude/Programacion Concurrente - Indice.md",
     "VersionClaude/Proceso.md",
     "VersionClaude/Preguntas y Respuestas - Primer Parcial Programación Concurrente.md",
     "VersionClaude/Maquina de Turing.md",
@@ -217,15 +213,21 @@
     "VersionClaude/Clase 4.md",
     "VersionClaude/Automatas Finitos.md",
     "VersionClaude/Automata.md",
+    "VersionClaude/Automata de Pila.md",
     "VersionClaude/Automata Lineal Acotado.md",
+    "VersionClaude/Arboles y Grafos de Alcanzabilidad.md",
+    "VersionClaude/Algebra Lineal - Matrices de RdP.md",
+    "VersionClaude/2026-09-10.md",
+    "VersionClaude/2026-09-08.md",
     "VersionClaude",
-    "V2/Redes de petri.md",
-    "V1/Automata.md",
+    "2026-09-08.md",
     "V2",
-    "v3",
-    "V1",
     "V1/Pasted image 20260831171140.png",
     "V1/Pasted image 20260829074235.png",
+    "V1",
+    "Pasted image 20260831171140.png",
+    "Pasted image 20260829074235.png",
+    "v3",
     "Untitled.base"
   ]
 }
