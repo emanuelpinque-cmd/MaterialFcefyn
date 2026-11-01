@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "6bc885761759f1c2",
+        "id": "63879289174976c5",
         "type": "tabs",
         "children": [
           {
-            "id": "09ae3ca4fb42f8eb",
+            "id": "3c40bbd8234f8fc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VersionClaude/Algebra Lineal - Matrices de RdP.md",
+                "file": "TP1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algebra Lineal - Matrices de RdP"
+              "title": "TP1"
+            }
+          },
+          {
+            "id": "0b8cc00a2c680282",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resumenes_estudio/3_Executors_y_ThreadFactory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3_Executors_y_ThreadFactory"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Creaci",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,43 +205,50 @@
       "bases:Create new base": false
     }
   },
-  "active": "09ae3ca4fb42f8eb",
+  "active": "0b8cc00a2c680282",
   "lastOpenFiles": [
+    "resumenes_estudio/2_Redes_de_Petri_Temporales.md",
+    "resumenes_estudio/1_Monitores.md",
+    "Monitores.md",
+    "resumenes_estudio/img/threadfactory.png",
+    "resumenes_estudio/img/pool_esquema.png",
+    "resumenes_estudio/img/pool_crece.png",
+    "resumenes_estudio/img/petri_ventana.png",
+    "resumenes_estudio/img/petri_semanticas.png",
+    "resumenes_estudio/img/petri_peor_caso.png",
+    "resumenes_estudio/img/petri_patrones.png",
+    "resumenes_estudio/img/petri_intervalos.png",
+    "resumenes_estudio/img/petri_conflicto.png",
+    "resumenes_estudio/img/petri_bomba_tiempos.png",
+    "resumenes_estudio/img",
+    "resumenes_estudio/3_Executors_y_ThreadFactory.md",
+    "resumenes_estudio",
+    "TP1.md",
+    "Excalidraw/Drawing 2026-10-02 13.07.25.excalidraw.md",
+    "V1/Preguntas y Respuestas - Primer Parcial Programación Concurrente.md",
+    "Excalidraw",
+    "VersionClaude/Preguntas y Respuestas - Primer Parcial Programación Concurrente.md",
+    "VersionClaude/Gramatica.md",
+    "VersionClaude/Arboles y Grafos de Alcanzabilidad.md",
+    "VersionClaude/Definiciones previas.md",
+    "VersionClaude/Excepciones.md",
+    "VersionClaude/Expresiones Regulares.md",
+    "VersionClaude/Propiedades de las redes de petri.md",
+    "VersionClaude/preguntas_redes_de_petri_respondidas.md",
+    "VersionClaude/Redes de petri.md",
     "VersionClaude/Programacion Concurrente - Indice.md",
-    "VersionClaude/attachments/Pasted image 20260831171140.png",
-    "VersionClaude/attachments/Pasted image 20260829074235.png",
+    "VersionClaude/Algebra Lineal - Matrices de RdP.md",
     "VersionClaude/attachments",
     "VersionClaude/Thread.md",
     "VersionClaude/Sincronizacion basica - synchronized.md",
     "VersionClaude/Semaforo.md",
-    "VersionClaude/Redes de petri.md",
-    "VersionClaude/Propiedades de las redes de petri.md",
     "VersionClaude/Proceso.md",
-    "VersionClaude/Preguntas y Respuestas - Primer Parcial Programación Concurrente.md",
     "VersionClaude/Maquina de Turing.md",
     "VersionClaude/Introduccion.md",
-    "VersionClaude/Gramatica.md",
-    "VersionClaude/Expresiones Regulares.md",
-    "VersionClaude/Excepciones.md",
-    "VersionClaude/Definiciones previas.md",
     "VersionClaude/Concurrencia.md",
-    "VersionClaude/Clase 4.md",
-    "VersionClaude/Automatas Finitos.md",
-    "VersionClaude/Automata.md",
-    "VersionClaude/Automata de Pila.md",
-    "VersionClaude/Automata Lineal Acotado.md",
-    "VersionClaude/Arboles y Grafos de Alcanzabilidad.md",
-    "VersionClaude/Algebra Lineal - Matrices de RdP.md",
-    "VersionClaude/2026-09-10.md",
-    "VersionClaude/2026-09-08.md",
     "VersionClaude",
-    "2026-09-08.md",
     "V2",
-    "V1/Pasted image 20260831171140.png",
-    "V1/Pasted image 20260829074235.png",
     "V1",
-    "Pasted image 20260831171140.png",
-    "Pasted image 20260829074235.png",
     "v3",
     "Untitled.base"
   ]
